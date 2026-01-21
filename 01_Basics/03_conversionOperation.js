@@ -34,7 +34,47 @@ let marksInStrig = String(marks);
 // console.log(marksInStrig);
 // console.log(typeof marksInStrig);
 
-let value = NaN;
-let valueInNumber2 = Number(value);
-console.log(valueInNumber2);
-console.log(typeof valueInNumber2);
+let value2 = NaN;
+let valueInNumber2 = Number(value2);
+// console.log(valueInNumber2);
+// console.log(typeof valueInNumber2);
+
+
+
+// ******************************Operations**************************************
+
+let value = 3;
+let negValue = -value;
+//console.log(negValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**2); // power 
+// console.log(2/2);
+// console.log(2%2);
+
+let str1 = "raj"
+let str2 = "  deep"
+let str3 = str1+str2;
+//console.log(str3);
+
+// console.log("1"+2);
+// console.log(1+"2");
+// console.log("1"+2+2);
+// console.log(1+2+"3");
+// console.log("hello"+ null);
+// console.log("hello"+ undefined);
+// console.log("hello"+ true);
+// console.log("hello"+ false);
+// console.log("hello"+ NaN);
+
+// + operator is used for both addition and concatenation
+// if any one operand is string , it will convert other operand to string and do concatenation
+// otherwise it will do addition    
+
+let gameCounter = 111;
+gameCounter++;
+console.log(gameCounter);
+
+
